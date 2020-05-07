@@ -2,13 +2,17 @@
 set background=light 
 colorscheme solarized 
 
-" Movement 
-nnoremap j gj " move vertically by visual line 
-nnoremap k gk 
-
 " Bindings
 inoremap jk <Esc> 
 inoremap kj <Esc> 
+
+" Auto indentation 
+set autoindent 
+
+set tabstop=4      " width of a tab
+set shiftwidth=4   " indents with width 4 
+set softtabstop=4  " number of columns for a tab 
+set expandtab      " expand tabs to spaces 
 
 
 nnoremap zz :update<cr> 

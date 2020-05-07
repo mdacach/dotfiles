@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Palenight Theme",
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 20,
+    "vim.incsearch": true, 
+    "vim.useSystemClipboard": true, 
+	"vim.hlsearch": true, 
+	"vim.insertModeKeyBindings": [
+	{
+	"before": ["k", "j"], "after":["<Esc>"]
+	},
+	{
+	"before": ["j", "k"], "after":["<Esc>"]
+	}
+	],
+	"vim.handleKeys": {
+	"<C-n>": false
+},
+"editor.minimap.enabled": false,
+"breadcrumbs.enabled": false
+}
