@@ -6,16 +6,20 @@
     "vim.useSystemClipboard": true, 
 	"vim.hlsearch": true, 
 	"vim.insertModeKeyBindings": [
-	{
-	"before": ["k", "j"], "after":["<Esc>"]
-	},
-	{
-	"before": ["j", "k"], "after":["<Esc>"]
-	}
+        {
+            "before": ["k", "j"], "after":["<Esc>"]
+        },
+        {
+            "before": ["j", "k"], "after":["<Esc>"]
+        },
+        {
+            "before": [";", ";"], "after":["<Esc>", "A", ";"]
+        },
 	],
 	"vim.handleKeys": {
 	"<C-n>": false
 },
 "editor.minimap.enabled": false,
-"breadcrumbs.enabled": false
+"breadcrumbs.enabled": false,
+"competitive-programming-helper.firstTime": false
 }

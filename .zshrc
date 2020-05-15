@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Alias 
 alias start-xephyr="Xephyr -br -ac -noreset -resizeable -softCursor -screen 1800x800  :1 &"
-alias ngu="cd ~/Dev/ngu-script" 
+alias ngu="cd ~/dev/ngu-script" 
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/matheus/.oh-my-zsh"
