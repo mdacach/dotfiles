@@ -48,7 +48,7 @@ filetype plugin indent on    " required
 " ########################### My vimrc ###############################
 
 " Colorscheme 
-set background=dark 
+" set background=dark 
 " colorscheme solarized 
 
 " Bindings
