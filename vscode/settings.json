@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Palenight Theme",
+    "workbench.colorTheme": "One Monokai",
     "editor.fontFamily": "Hack",
     "editor.fontSize": 20,
     "vim.incsearch": true, 
@@ -21,5 +21,6 @@
 },
 "editor.minimap.enabled": false,
 "breadcrumbs.enabled": false,
-"competitive-programming-helper.firstTime": false
+"competitive-programming-helper.firstTime": false,
+"competitive-programming-helper.saveLocation": "~/dev/.cph/"
 }
