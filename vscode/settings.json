@@ -22,5 +22,11 @@
 "editor.minimap.enabled": false,
 "breadcrumbs.enabled": false,
 "competitive-programming-helper.firstTime": false,
-"competitive-programming-helper.saveLocation": "~/dev/.cph/"
+"competitive-programming-helper.saveLocation": "/home/matheus/dev/.cph",
+"C_Cpp.default.cppStandard": "c++20",
+"code-runner.runInTerminal": true,
+"code-runner.executorMap": {
+    "cpp": "g++ -Wall -O2 -std=c++2a $fileName -o $fileNameWithoutExt", 
+}
+
 }
