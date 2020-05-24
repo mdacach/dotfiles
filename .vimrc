@@ -34,13 +34,13 @@ filetype plugin indent on    " required
 " ########################### My vimrc ###############################
 
 " Colorscheme 
-syntax on 
-set t_Co=256
-set cursorline 
-colorscheme onehalfdark 
-let g:airline_theme='onehalfdark'
-set termguicolors 
-set term=xterm-256color 
+" syntax on 
+" set t_Co=256
+" set cursorline 
+" colorscheme onehalfdark 
+" let g:airline_theme='onehalfdark'
+" set termguicolors 
+" set term=xterm-256color 
 
 " Bindings
 inoremap jk <Esc> 
