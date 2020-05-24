@@ -10,7 +10,7 @@ alacritty = 'ln -s -f /home/matheus/.dotfiles/.alacritty.yml /home/matheus/.alac
 vim = 'ln -s -f /home/matheus/.dotfiles/.vimrc /home/matheus/.vimrc' 
 zsh = 'ln -s -f /home/matheus/.dotfiles/.zshrc /home/matheus/.zshrc' 
 tmux = 'ln -s -f /home/matheus/.dotfiles/.tmux.conf /home/matheus/.tmux.conf'
-redshift = 'ln -s -f /home/matheus/.dotfiles/.redshift.conf /home/matheus/.config/redshift.conf' 
+redshift = 'ln -s -f /home/matheus/.dotfiles/redshift.conf /home/matheus/.config/redshift.conf' 
 vscode = 'ln -s -f /home/matheus/.dotfiles/vscode/settings.json /home/matheus/.config/Code/User/settings.json' 
 vscode_snippets = 'ln -s -f /home/matheus/.dotfiles/vscode/snippets/cpp.json /home/matheus/.config/Code/User/snippets/cpp.json' 
 
