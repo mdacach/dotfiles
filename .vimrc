@@ -2,59 +2,38 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+" vim-plug 
+" put plugins between calls 
+call plug#begin('~/.vim/plugged')
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'sonph/onehalf', {'rtp': 'vim/'} " colorscheme 
-
-
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
+Plug 'morhetz/gruvbox' " colorscheme
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " autocompletion 
+Plug 'neoclide/coc-clangd' "cpp for coc 
+call plug#end() 
 
 " ########################### My vimrc ###############################
+let g:coc_node_path = '/usr/bin/nodejs' 
+" set caps lock to esc and esc to caps lock 
+au VimEnter * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+au VimLeave * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
 
-" Colorscheme 
-" syntax on 
-" set t_Co=256
-" set cursorline 
-" colorscheme onehalfdark 
-" let g:airline_theme='onehalfdark'
-" set termguicolors 
-" set term=xterm-256color 
+" set termguicolors  don't know if necessary 
+colorscheme gruvbox  
+set background=dark 
 
 " Bindings
 inoremap jk <Esc> 
 inoremap kj <Esc> 
 
 " Auto indentation 
-set autoindent 
+set smartindent  
 
 set tabstop=4      " width of a tab
 set shiftwidth=4   " indents with width 4 
 set softtabstop=4  " number of columns for a tab 
 set expandtab      " expand tabs to spaces 
 
-
+" set zz to save file 
 nnoremap zz :update<cr> 
 " Default vimrc from missing semester class below 
 " Comments in Vimscript start with a `"`.
@@ -68,10 +47,10 @@ nnoremap zz :update<cr>
 " is present. But we're including it here just in case this config file is
 " loaded some other way (e.g. saved as `foo`, and then Vim started with
 " `vim -u foo`).
-set nocompatible
+" set nocompatible
 
 " Turn on syntax highlighting.
-syntax on
+" syntax on
 
 " Disable the default Vim startup message.
 set shortmess+=I
@@ -121,7 +100,6 @@ set noerrorbells visualbell t_vb=
 " Enable mouse support. You should avoid relying on this too much, but it can
 " sometimes be convenient.
 set mouse+=a
-
 " Try to prevent bad habits like using the arrow keys for movement. This is
 " not the only possible bad habit. For example, holding down the h/j/k/l keys
 " for movement, rather than using more efficient movement commands, is also a
