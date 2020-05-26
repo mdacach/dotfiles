@@ -27,6 +27,7 @@
 "code-runner.runInTerminal": true,
 "code-runner.executorMap": {
     "cpp": "g++ -Wall -O2 -std=c++2a $fileName -o $fileNameWithoutExt", 
-}
+},
+"competitive-programming-helper.compilationFlagscpp": "-std=c++17"
 
 }
