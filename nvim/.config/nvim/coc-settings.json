@@ -1,0 +1,8 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["markdown", "python", "cpp"],
+
+  // python config
+  "python.linting.enabled": true,
+  "python.jediEnabled": false, 
+  "python.linting.pylintEnabled": true,
+}
