@@ -1,5 +1,5 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["markdown", "python", "cpp"],
+  "coc.preferences.formatOnSaveFiletypes": ["markdown", "python"], // cpp does not respect 4 tab spaces 
 
   // python config
   "python.linting.enabled": true,
