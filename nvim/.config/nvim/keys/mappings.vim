@@ -9,7 +9,7 @@ inoremap jk <Esc>
 inoremap kj <Esc> 
 
 " press ctrl+u to capitalize a word 
-inoremap <C-u> <Esc>viwUi 
+inoremap <C-u> <Esc>viwU 
 nnoremap <C-u> viwU<Esc> 
 
 " ctrl+s for saving 

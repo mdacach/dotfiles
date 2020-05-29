@@ -7,7 +7,9 @@ Plug 'joshdick/onedark.vim'                              " colorscheme
 Plug 'neoclide/coc.nvim', {'branch': 'release'}          " autocompletion
 Plug 'vim-airline/vim-airline'                           " airline and themes 
 Plug 'vim-airline/vim-airline-themes'
-
+Plug 'mhinz/vim-signify'                                 " git integration
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
 
 call plug#end() 
 
