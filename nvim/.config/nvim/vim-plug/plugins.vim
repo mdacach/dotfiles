@@ -10,6 +10,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-signify'                                 " git integration
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }      " fzf integration
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
 
 call plug#end() 
 
