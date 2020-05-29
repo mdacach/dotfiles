@@ -13,6 +13,7 @@ Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }      " fzf integration
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
+Plug 'preservim/nerdcommenter'                           " comment stuff 
 
 call plug#end() 
 
