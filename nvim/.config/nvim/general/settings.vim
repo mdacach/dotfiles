@@ -30,6 +30,7 @@ set incsearch                    " enable searching as you type
 
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
+autocmd BufNewFile *.cpp -r ~/.config/nvim/templates/competitive.cpp 
 
 
 
