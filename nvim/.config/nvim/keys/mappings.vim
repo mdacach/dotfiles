@@ -28,7 +28,8 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 
 " F5 for compiling cpp (makefile)
 autocmd filetype cpp      set makeprg=g++\ -std=c++17\ -Wall\ %\ -o\ %<
-autocmd filetype cpp      noremap <F5> :make<CR> 
+autocmd filetype cpp      noremap <F5> :w <bar> :make<CR> 
+autocmd filetype cpp      inoremap <F5> <Esc>:w <bar> :make<CR> 
 
 " F9 for running code 
 autocmd filetype cpp      noremap <F9> !./%<<CR> 
