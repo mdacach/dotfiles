@@ -14,7 +14,10 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }      " fzf integration
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 Plug 'preservim/nerdcommenter'                           " comment stuff 
-Plug 'justinmk/vim-sneak'                                " better movement 
+Plug 'justinmk/vim-sneak'                                " better movement vertically
+Plug 'unblevable/quick-scope'                            " better movement horizontally 
+Plug 'liuchengxu/vim-which-key'                          " remember keybindings
+
 
 call plug#end() 
 
