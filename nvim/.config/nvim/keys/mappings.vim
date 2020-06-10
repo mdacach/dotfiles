@@ -28,11 +28,13 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 
 " F5 for compiling cpp (makefile)
 autocmd filetype cpp      set makeprg=g++\ -std=c++17\ -Wall\ %\ -o\ %<
-autocmd filetype cpp      noremap <F5> :w <bar> :make<CR> 
-autocmd filetype cpp      inoremap <F5> <Esc>:w <bar> :make<CR> 
+autocmd filetype cpp      noremap <F5> :w <bar> :make<CR>
+autocmd filetype cpp      inoremap <F5> <Esc> :w <bar> :make<CR>
 
-" F9 for running code  DOESNT WORK
-autocmd filetype cpp      noremap <F9> !./%<<CR> 
+" F9 for running 
+autocmd filetype cpp      noremap <F9> :!echo "Hello"<CR>
+autocmd filetype cpp      inoremap <F9> <Esc> :!echo "Hello"<CR>
+
 
 " F2 copy current buffer
 noremap <leader>y ggVG"+y''
