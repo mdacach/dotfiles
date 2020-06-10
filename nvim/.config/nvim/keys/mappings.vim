@@ -32,9 +32,16 @@ autocmd filetype cpp      noremap <F5> :w <bar> :make<CR>
 autocmd filetype cpp      inoremap <F5> <Esc> :w <bar> :make<CR>
 
 " F9 for running 
-autocmd filetype cpp      noremap <F9> :!echo "Hello"<CR>
-autocmd filetype cpp      inoremap <F9> <Esc> :!echo "Hello"<CR>
+" TODO maybe use floaterm here (couldn't get it to expand % current file name)
+autocmd filetype cpp      noremap <F9> :term ./%< <CR> i
+autocmd filetype cpp      inoremap <F9> <Esc> :term ./%< <CR> i
 
+autocmd filetype java     set makeprg=javac\ % 
+autocmd filetype java     noremap <F5> :w <bar> :make<CR>
+autocmd filetype java     inoremap <F5> <Esc> :w <bar> :make<CR>
+
+autocmd filetype java      noremap <F9> :term java %< <CR> i
+autocmd filetype java      inoremap <F9> <Esc> :term java %< <CR> i
 
 " F2 copy current buffer
 noremap <leader>y ggVG"+y''
