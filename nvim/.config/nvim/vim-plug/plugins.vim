@@ -15,9 +15,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 Plug 'preservim/nerdcommenter'                           " comment stuff 
 Plug 'justinmk/vim-sneak'                                " better movement vertically
-Plug 'unblevable/quick-scope'                            " better movement horizontally 
+Plug 'unblevable/quick-scope'                            " better movement horizontally
 Plug 'liuchengxu/vim-which-key'                          " remember keybindings
-
-
+Plug 'voldikss/vim-floaterm'                             " floating terminal to run programs
 call plug#end() 
 
