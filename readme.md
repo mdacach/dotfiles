@@ -7,3 +7,5 @@ Currently contains:
 --nvim 
 --redshift 
 
+Download fish as shell (until I configure zsh)
+
