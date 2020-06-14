@@ -13,7 +13,7 @@ sudo pacman -S --noconfirm nodejs npm
 sudo pacman -S --noconfirm fzf ripgrep
 
 # install stow 
-sudo pacman -S stow
+sudo pacman -S --noconfirm stow
 
 # link files
 stow -vSt ~ alacritty nvim redshift fish
