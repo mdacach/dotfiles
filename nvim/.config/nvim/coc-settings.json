@@ -5,7 +5,9 @@
   "python.linting.enabled": true,
   "python.jediEnabled": false, 
   "python.linting.pylintEnabled": true,
-  "java.trace.server": "verbose", 
-  "java.configuration.updateBuildConfiguration": "automatic", 
-  "java.jdt.ls.vmargs": "-cp /home/matheus/algs4/algs4.jar:.", 
+  "clangd.path": "/home/matheus/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd",
+  "java.project.referencedLibraries": [
+      "/home/matheus/algs4/algs4.jar",
+  ],
+  
 }

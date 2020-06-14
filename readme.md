@@ -6,6 +6,11 @@ Currently contains:
 --alacritty 
 --nvim 
 --redshift 
+--fish
+
+Packages required: 
+-- fzf, ripgrep for fzf.vim
+-- nodejs, npm for coc.nvim
 
 #Steps on a new computer:  
 -> Clone the repository   
