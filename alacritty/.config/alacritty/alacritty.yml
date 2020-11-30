@@ -1,6 +1,8 @@
+# Colors (One Half Dark)
 colors:
   # Default colors
   primary:
+    #background: '0x282c34' # onehalfdark
     background: "#1e2127"
     # background: "#2E3440"
     foreground: "#D8DEE9"
@@ -8,6 +10,7 @@ colors:
   # Normal colors
   normal:
     black: "#3B4252"
+    #black: '0x282c34' # onehalfdark
     red: "#BF616A"
     green: "#A3BE8C"
     yellow: "#EBCB8B"
@@ -18,6 +21,7 @@ colors:
 
   # Bright colors
   bright:
+    #black: '0x282c34' # onehalfdark
     black: "#5c6370"
     red: "#e06c75"
     green: "#98c379"
@@ -27,7 +31,7 @@ colors:
     cyan: "#56b6c2"
     white: "#ECEFF4"
 
-background_opacity: 1.0
+background_opacity: 0.98
 
 font:
   normal:

@@ -27,10 +27,7 @@ set clipboard=unnamedplus        " system clipboard
 set ignorecase                   " ignore case for searching 
 set smartcase                    " will take case into account if searching with case
 set incsearch                    " enable searching as you type 
+set diffopt+=horizontal          " horizontal splits for Gdiff in fugitive
 
-au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
+au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vim alternatively you can run :source $MYVIMRC
 autocmd BufNewFile *.cpp -r ~/.config/nvim/templates/competitive.cpp 
-
-
-
-

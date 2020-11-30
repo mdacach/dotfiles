@@ -19,5 +19,8 @@ Plug 'justinmk/vim-sneak'                                " better movement verti
 Plug 'unblevable/quick-scope'                            " better movement horizontally
 Plug 'liuchengxu/vim-which-key'                          " remember keybindings
 Plug 'voldikss/vim-floaterm'                             " floating terminal to run programs
+Plug 'lervag/vimtex'                                     " latex
+Plug 'sonph/onehalf', {'rtp': 'vim/'}                    " colorscheme
+
 call plug#end() 
 
